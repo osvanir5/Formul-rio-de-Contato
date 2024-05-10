@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Contato</title>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="principal">
+            <header>
+                <h1>Formulário de Contato</h1>
+            </header>
+            <div class="contener">
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text">
+                <p id="erro"></p>
+
+                <label for="email">E-mail:</label>
+                <input id="email" type="text">
+                <p id="gmail"></p>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <p id="meensagem"></p>
+            </div>
+            <button onclick="validaForm()">Enter</button>
+        </div>
+    </body>
+</html>
